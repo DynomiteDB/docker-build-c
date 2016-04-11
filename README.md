@@ -11,7 +11,9 @@ This image is automatically built on DockerHub. However, if you want to manually
 Clone the repo.
 
 ```bash
-mkdir ~/repos && git clone https://github.com/DynomiteDB/docker-build-c.git
+mkdir -p ~/repos/ && cd $_
+
+git clone https://github.com/DynomiteDB/docker-build-c.git
 ```
 
 `cd` into the repo.
